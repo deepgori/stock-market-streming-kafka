@@ -1,27 +1,22 @@
 # stock-market-streming-kafka
 
-# Market Momentum: Real-Time Stock Data Streaming
+# Stock Market Streaming using Kafka
 
 ## Project Overview
-Market Momentum is a data engineering initiative focused on the real-time analysis of stock market data using Apache Kafka and a suite of AWS services. With an emphasis on cloud configuration and resource optimization, this project prioritizes efficient cloud resource utilization over extensive coding.
+"Stock Market Streaming using Kafka highlights a real-time stock market analytics pipeline built using Apache Kafka and AWS services. Emphasizing a low-code, configuration-driven approach, the project focuses on efficiently setting up and optimizing cloud resources to process, store, and analyze high-speed financial data streams."
 
-## Key Components
-- **Apache Kafka**: For real-time data streaming.
-- **AWS EC2**: To host Kafka brokers and manage producer/consumer communications.
-- **AWS S3**: For durable data storage.
-- **AWS Glue**: For data cataloging.
-- **AWS Athena**: For running SQL queries on stored data.
-- **Boto3 SDK**: For interacting with AWS services using Python.
-- **Zookeeper**: For managing Kafka's cluster coordination.
 
 ## Architecture Diagram
 ![Architecture Diagram](Architecture.jpg)
 
-## Getting Started
-### Prerequisites
-- Install Python 3.x
-- Install Kafka and Zookeeper
-- Set up AWS credentials
 
-### Installation
-1. Clone the repository:
+## Installation & Configuration
+
+### Prerequisites
+- An AWS account with access to EC2, S3, Glue, and Athena services.
+- An EC2 instance (preferably Amazon Linux 2 Kernel 5.10 AMI 2.0.20240223.0 x86_64 HVM gp2 to avoid known issues with the latest AMI).
+- Apache Kafka 3.3.1
+- Python 3.11
+- Boto3 SDK for Python
+
+This project was made using Darshil Parmar's Youtube Video: https://www.youtube.com/watch?v=KerNf0NANMo
