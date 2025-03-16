@@ -1,5 +1,3 @@
-# stock-market-streming-kafka
-
 # Stock Market Streaming using Kafka
 
 ## Project Overview
