@@ -15,7 +15,7 @@ Market Momentum is a data engineering initiative focused on the real-time analys
 - **Zookeeper**: For managing Kafka's cluster coordination.
 
 ## Architecture Diagram
-![Architecture Diagram](path/to/your/image.jpg)
+![Architecture Diagram](Architecture.jpg)
 
 ## Getting Started
 ### Prerequisites
